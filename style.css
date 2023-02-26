@@ -1,0 +1,30 @@
+/* css tampilan */
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    /* background: rgb(10, 10, 65); */
+    background: linear-gradient(90deg, rgb(9, 9, 102) 0%, rgb(9, 9, 70) 39%, rgb(3, 3, 12) 100%);
+}
+
+@media (max-width: 350px) {
+    .container {
+        margin-top: 150px;
+    }
+
+}
+
+.prom {
+    margin: 5px;
+}
+
+.container {
+    z-index: 10;
+}
+
+canvas {
+    color: linear-gradient(90deg, rgb(9, 9, 102) 0%, rgb(9, 9, 70) 39%, rgb(3, 3, 12) 100%);
+}
